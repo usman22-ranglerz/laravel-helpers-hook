@@ -1,6 +1,6 @@
 {
   "name": "laravel-helpers-hook",
-  "description": "Basic Laravel Helpers",
+  "description": "basic laravel helpers",
   "require": {
     "larapack/hooks": "~1.0"
   },
@@ -12,7 +12,7 @@
   "extra": {
     "hook": {
       "providers": [
-        "TestHook\\TestHookServiceProvider"
+        "LaravelHelpersHook\\LaravelHelpersHookServiceProvider"
       ]
     }
   }
