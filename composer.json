@@ -1,5 +1,5 @@
 {
-  "name": ";laravel-helpers-hook",
+  "name": "laravel-helpers-hook",
   "description": "Basic Laravel Helpers",
   "require": {
     "larapack/hooks": "~1.0"
