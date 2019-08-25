@@ -13,7 +13,7 @@ class LaravelHelpersHookServiceProvider extends ServiceProvider
     {
      	// Add routers
         app('router')->get('test', function () {
-            return 'Hello world!';
+            return 'Hello Usman!';
         });   
     }
 }

@@ -1,0 +1,19 @@
+{
+  "name": ";laravel-helpers-hook",
+  "description": "Basic Laravel Helpers",
+  "require": {
+    "larapack/hooks": "~1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "TestHook\\": "src/"
+    }
+  },
+  "extra": {
+    "hook": {
+      "providers": [
+        "TestHook\\TestHookServiceProvider"
+      ]
+    }
+  }
+}
